@@ -1,25 +1,12 @@
 {
-  "name": "Small Sharp Tool",
-  "description": "This app does one little thing, and does it well.",
-  "keywords": [
-    "productivity",
-    "HTML5",
-    "scalpel"
-  ],
-  "website": "https://jejehjeeh.com/",
-  "repository": "https://github.com/jejehjeeh/jejehjeeh",
-  "logo": "https://jejehjeeh.com/logo.svg",
-  "success_url": "/welcome",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {
-    "SECRET_TOKEN": {
-      "description": "A secret key for verifying the integrity of signed cookies.",
-      "generator": "secret"
-    },
-    "WEB_CONCURRENCY": {
-      "description": "The number of processes to run.",
-      "value": "5"
-    }
-  },
+  "name": "whatsapp-bot",
+  "description": "whatsapp bot build with nodejs",
+  "repository": "https://github.com/jejehjeeh/pemuda",
+  "logo": "https://c.top4top.io/p_2069qnvob1.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation"]
+  "buildpacks": [{
+    "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+  }, {
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }]
+}
