@@ -1,6 +1,5 @@
 ##`Deploy`
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/jejehjeeh/
-RanzColemk/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/zeeoneofc/subrek-ngab/)
 
 - 👋 Hi, I’m @jejehjeeh
 - 👀 I’m interested in ...
